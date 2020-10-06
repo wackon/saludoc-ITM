@@ -16,7 +16,7 @@ namespace Saludo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Registradora());
+            Application.Run(new Ppal());
         }
     }
 }

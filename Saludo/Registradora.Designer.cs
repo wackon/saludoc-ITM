@@ -41,8 +41,10 @@
             this.pbSeguridad = new System.Windows.Forms.PictureBox();
             this.gbFacturar = new System.Windows.Forms.GroupBox();
             this.gbFactura = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txPago = new System.Windows.Forms.TextBox();
             this.btPagar = new System.Windows.Forms.Button();
-            this.btBorrarF = new System.Windows.Forms.Button();
+            this.btNuevaF = new System.Windows.Forms.Button();
             this.btAgregar = new System.Windows.Forms.Button();
             this.txSalida = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -66,6 +68,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txCliente = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btPago = new System.Windows.Forms.Button();
             this.gbLogueo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSeguridad)).BeginInit();
             this.gbFacturar.SuspendLayout();
@@ -159,8 +162,11 @@
             // 
             // gbFactura
             // 
+            this.gbFactura.Controls.Add(this.btPago);
+            this.gbFactura.Controls.Add(this.label12);
+            this.gbFactura.Controls.Add(this.txPago);
             this.gbFactura.Controls.Add(this.btPagar);
-            this.gbFactura.Controls.Add(this.btBorrarF);
+            this.gbFactura.Controls.Add(this.btNuevaF);
             this.gbFactura.Controls.Add(this.btAgregar);
             this.gbFactura.Controls.Add(this.txSalida);
             this.gbFactura.Controls.Add(this.label11);
@@ -179,6 +185,17 @@
             this.gbFactura.Name = "gbFactura";
             this.gbFactura.TabStop = false;
             // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.Name = "label12";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
+            // txPago
+            // 
+            resources.ApplyResources(this.txPago, "txPago");
+            this.txPago.Name = "txPago";
+            // 
             // btPagar
             // 
             resources.ApplyResources(this.btPagar, "btPagar");
@@ -186,12 +203,12 @@
             this.btPagar.UseVisualStyleBackColor = true;
             this.btPagar.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // btBorrarF
+            // btNuevaF
             // 
-            resources.ApplyResources(this.btBorrarF, "btBorrarF");
-            this.btBorrarF.Name = "btBorrarF";
-            this.btBorrarF.UseVisualStyleBackColor = true;
-            this.btBorrarF.Click += new System.EventHandler(this.btBorrarF_Click);
+            resources.ApplyResources(this.btNuevaF, "btNuevaF");
+            this.btNuevaF.Name = "btNuevaF";
+            this.btNuevaF.UseVisualStyleBackColor = true;
+            this.btNuevaF.Click += new System.EventHandler(this.btBorrarF_Click);
             // 
             // btAgregar
             // 
@@ -354,6 +371,13 @@
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
             // 
+            // btPago
+            // 
+            resources.ApplyResources(this.btPago, "btPago");
+            this.btPago.Name = "btPago";
+            this.btPago.UseVisualStyleBackColor = true;
+            this.btPago.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // Registradora
             // 
             resources.ApplyResources(this, "$this");
@@ -415,8 +439,11 @@
         private System.Windows.Forms.CheckBox chDescuento;
         private System.Windows.Forms.PictureBox pbSeguridad;
         private System.Windows.Forms.Button btPagar;
-        private System.Windows.Forms.Button btBorrarF;
+        private System.Windows.Forms.Button btNuevaF;
         private System.Windows.Forms.Button btAgregar;
         private System.Windows.Forms.Button btFindia;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txPago;
+        private System.Windows.Forms.Button btPago;
     }
 }

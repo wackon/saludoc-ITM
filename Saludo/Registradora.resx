@@ -329,42 +329,6 @@
   <data name="&gt;&gt;txClave.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;pbSeguridad.Name" xml:space="preserve">
-    <value>pbSeguridad</value>
-  </data>
-  <data name="&gt;&gt;pbSeguridad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbSeguridad.Parent" xml:space="preserve">
-    <value>gbLogueo</value>
-  </data>
-  <data name="&gt;&gt;pbSeguridad.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="gbLogueo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 36</value>
-  </data>
-  <data name="gbLogueo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>399, 107</value>
-  </data>
-  <data name="gbLogueo.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="gbLogueo.Text" xml:space="preserve">
-    <value>Logueo</value>
-  </data>
-  <data name="&gt;&gt;gbLogueo.Name" xml:space="preserve">
-    <value>gbLogueo</value>
-  </data>
-  <data name="&gt;&gt;gbLogueo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbLogueo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gbLogueo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="pbSeguridad.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABRQAAAUUCAYAAACu5p7oAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -3771,8 +3735,104 @@
   <data name="&gt;&gt;pbSeguridad.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="gbLogueo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 36</value>
+  </data>
+  <data name="gbLogueo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 107</value>
+  </data>
+  <data name="gbLogueo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbLogueo.Text" xml:space="preserve">
+    <value>Logueo</value>
+  </data>
+  <data name="&gt;&gt;gbLogueo.Name" xml:space="preserve">
+    <value>gbLogueo</value>
+  </data>
+  <data name="&gt;&gt;gbLogueo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbLogueo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbLogueo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btPago.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 308</value>
+  </data>
+  <data name="btPago.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 28</value>
+  </data>
+  <data name="btPago.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btPago.Text" xml:space="preserve">
+    <value>Pago Factura</value>
+  </data>
+  <data name="&gt;&gt;btPago.Name" xml:space="preserve">
+    <value>btPago</value>
+  </data>
+  <data name="&gt;&gt;btPago.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btPago.Parent" xml:space="preserve">
+    <value>gbFactura</value>
+  </data>
+  <data name="&gt;&gt;btPago.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 312</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Pago:</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>gbFactura</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txPago.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 310</value>
+  </data>
+  <data name="txPago.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="txPago.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txPago.Name" xml:space="preserve">
+    <value>txPago</value>
+  </data>
+  <data name="&gt;&gt;txPago.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txPago.Parent" xml:space="preserve">
+    <value>gbFactura</value>
+  </data>
+  <data name="&gt;&gt;txPago.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="btPagar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 86</value>
+    <value>608, 53</value>
   </data>
   <data name="btPagar.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 28</value>
@@ -3781,7 +3841,7 @@
     <value>15</value>
   </data>
   <data name="btPagar.Text" xml:space="preserve">
-    <value>Pagar Factura</value>
+    <value>Fin Factura</value>
   </data>
   <data name="&gt;&gt;btPagar.Name" xml:space="preserve">
     <value>btPagar</value>
@@ -3793,34 +3853,34 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;btPagar.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
-  <data name="btBorrarF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btNuevaF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btBorrarF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 53</value>
+  <data name="btNuevaF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 87</value>
   </data>
-  <data name="btBorrarF.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btNuevaF.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 27</value>
   </data>
-  <data name="btBorrarF.TabIndex" type="System.Int32, mscorlib">
+  <data name="btNuevaF.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="btBorrarF.Text" xml:space="preserve">
-    <value>Borrar Factura</value>
+  <data name="btNuevaF.Text" xml:space="preserve">
+    <value>Nueva Factura</value>
   </data>
-  <data name="&gt;&gt;btBorrarF.Name" xml:space="preserve">
-    <value>btBorrarF</value>
+  <data name="&gt;&gt;btNuevaF.Name" xml:space="preserve">
+    <value>btNuevaF</value>
   </data>
-  <data name="&gt;&gt;btBorrarF.Type" xml:space="preserve">
+  <data name="&gt;&gt;btNuevaF.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btBorrarF.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btNuevaF.Parent" xml:space="preserve">
     <value>gbFactura</value>
   </data>
-  <data name="&gt;&gt;btBorrarF.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;btNuevaF.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btAgregar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3847,10 +3907,10 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;btAgregar.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="txSalida.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 156</value>
+    <value>26, 134</value>
   </data>
   <data name="txSalida.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3859,7 +3919,7 @@
     <value>Both</value>
   </data>
   <data name="txSalida.Size" type="System.Drawing.Size, System.Drawing">
-    <value>723, 147</value>
+    <value>716, 169</value>
   </data>
   <data name="txSalida.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -3874,7 +3934,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;txSalida.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3904,7 +3964,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="chDescuento.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3931,7 +3991,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;chDescuento.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="br25.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3958,7 +4018,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;br25.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="br19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3985,7 +4045,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;br19.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4012,7 +4072,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="br10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4039,7 +4099,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;br10.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="txCantidad.Location" type="System.Drawing.Point, System.Drawing">
     <value>510, 39</value>
@@ -4060,7 +4120,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;txCantidad.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4087,7 +4147,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="txValor.Location" type="System.Drawing.Point, System.Drawing">
     <value>301, 38</value>
@@ -4108,7 +4168,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;txValor.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4135,7 +4195,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="cbProducto.Items" xml:space="preserve">
     <value>TV 32</value>
@@ -4171,7 +4231,7 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;cbProducto.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4198,13 +4258,13 @@
     <value>gbFactura</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="gbFactura.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 146</value>
   </data>
   <data name="gbFactura.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 309</value>
+    <value>808, 342</value>
   </data>
   <data name="gbFactura.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4225,153 +4285,6 @@
     <value>gbFacturar</value>
   </data>
   <data name="&gt;&gt;gbFactura.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btFindia.Name" xml:space="preserve">
-    <value>btFindia</value>
-  </data>
-  <data name="&gt;&gt;btFindia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btFindia.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;btFindia.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btinicioFactura.Name" xml:space="preserve">
-    <value>btinicioFactura</value>
-  </data>
-  <data name="&gt;&gt;btinicioFactura.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btinicioFactura.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;btinicioFactura.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ltSucursal.Name" xml:space="preserve">
-    <value>ltSucursal</value>
-  </data>
-  <data name="&gt;&gt;ltSucursal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ltSucursal.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;ltSucursal.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;dtFecha.Name" xml:space="preserve">
-    <value>dtFecha</value>
-  </data>
-  <data name="&gt;&gt;dtFecha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dtFecha.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;dtFecha.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;txCliente.Name" xml:space="preserve">
-    <value>txCliente</value>
-  </data>
-  <data name="&gt;&gt;txCliente.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txCliente.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;txCliente.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="gbDatos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 25</value>
-  </data>
-  <data name="gbDatos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>771, 115</value>
-  </data>
-  <data name="gbDatos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gbDatos.Text" xml:space="preserve">
-    <value>Datos Factura</value>
-  </data>
-  <data name="&gt;&gt;gbDatos.Name" xml:space="preserve">
-    <value>gbDatos</value>
-  </data>
-  <data name="&gt;&gt;gbDatos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbDatos.Parent" xml:space="preserve">
-    <value>gbFacturar</value>
-  </data>
-  <data name="&gt;&gt;gbDatos.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gbFacturar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 149</value>
-  </data>
-  <data name="gbFacturar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>799, 461</value>
-  </data>
-  <data name="gbFacturar.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="gbFacturar.Text" xml:space="preserve">
-    <value>Facturar</value>
-  </data>
-  <data name="gbFacturar.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;gbFacturar.Name" xml:space="preserve">
-    <value>gbFacturar</value>
-  </data>
-  <data name="&gt;&gt;gbFacturar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbFacturar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gbFacturar.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="btFindia.Location" type="System.Drawing.Point, System.Drawing">
@@ -4584,6 +4497,57 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="gbDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="gbDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 115</value>
+  </data>
+  <data name="gbDatos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbDatos.Text" xml:space="preserve">
+    <value>Datos Factura</value>
+  </data>
+  <data name="&gt;&gt;gbDatos.Name" xml:space="preserve">
+    <value>gbDatos</value>
+  </data>
+  <data name="&gt;&gt;gbDatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbDatos.Parent" xml:space="preserve">
+    <value>gbFacturar</value>
+  </data>
+  <data name="&gt;&gt;gbDatos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbFacturar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 149</value>
+  </data>
+  <data name="gbFacturar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 494</value>
+  </data>
+  <data name="gbFacturar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gbFacturar.Text" xml:space="preserve">
+    <value>Facturar</value>
+  </data>
+  <data name="gbFacturar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gbFacturar.Name" xml:space="preserve">
+    <value>gbFacturar</value>
+  </data>
+  <data name="&gt;&gt;gbFacturar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbFacturar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbFacturar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4594,7 +4558,7 @@
     <value>None</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>836, 622</value>
+    <value>849, 655</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>

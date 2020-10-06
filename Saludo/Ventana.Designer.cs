@@ -36,6 +36,8 @@
             this.btBorrar = new System.Windows.Forms.Button();
             this.btSalir = new System.Windows.Forms.Button();
             this.lbMensaje = new System.Windows.Forms.Label();
+            this.btregistradora = new System.Windows.Forms.Button();
+            this.btcalc = new System.Windows.Forms.Button();
             this.pbImagen = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagen)).BeginInit();
             this.SuspendLayout();
@@ -71,7 +73,7 @@
             // 
             // btSaludo
             // 
-            this.btSaludo.Location = new System.Drawing.Point(139, 217);
+            this.btSaludo.Location = new System.Drawing.Point(158, 258);
             this.btSaludo.Name = "btSaludo";
             this.btSaludo.Size = new System.Drawing.Size(75, 23);
             this.btSaludo.TabIndex = 4;
@@ -82,7 +84,7 @@
             // btBorrar
             // 
             this.btBorrar.Enabled = false;
-            this.btBorrar.Location = new System.Drawing.Point(243, 217);
+            this.btBorrar.Location = new System.Drawing.Point(262, 258);
             this.btBorrar.Name = "btBorrar";
             this.btBorrar.Size = new System.Drawing.Size(75, 23);
             this.btBorrar.TabIndex = 5;
@@ -92,7 +94,7 @@
             // 
             // btSalir
             // 
-            this.btSalir.Location = new System.Drawing.Point(334, 217);
+            this.btSalir.Location = new System.Drawing.Point(353, 258);
             this.btSalir.Name = "btSalir";
             this.btSalir.Size = new System.Drawing.Size(75, 23);
             this.btSalir.TabIndex = 6;
@@ -107,6 +109,28 @@
             this.lbMensaje.Name = "lbMensaje";
             this.lbMensaje.Size = new System.Drawing.Size(0, 13);
             this.lbMensaje.TabIndex = 7;
+            // 
+            // btregistradora
+            // 
+            this.btregistradora.Image = global::Saludo.Properties.Resources.engranaje;
+            this.btregistradora.Location = new System.Drawing.Point(12, 217);
+            this.btregistradora.Name = "btregistradora";
+            this.btregistradora.Size = new System.Drawing.Size(127, 72);
+            this.btregistradora.TabIndex = 9;
+            this.btregistradora.Text = "Registradora";
+            this.btregistradora.UseVisualStyleBackColor = true;
+            this.btregistradora.Click += new System.EventHandler(this.btregistradora_Click);
+            // 
+            // btcalc
+            // 
+            this.btcalc.Image = global::Saludo.Properties.Resources.calc;
+            this.btcalc.Location = new System.Drawing.Point(434, 217);
+            this.btcalc.Name = "btcalc";
+            this.btcalc.Size = new System.Drawing.Size(127, 72);
+            this.btcalc.TabIndex = 8;
+            this.btcalc.Text = "Calculadora";
+            this.btcalc.UseVisualStyleBackColor = true;
+            this.btcalc.Click += new System.EventHandler(this.btcalc_Click);
             // 
             // pbImagen
             // 
@@ -125,7 +149,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(573, 252);
+            this.ClientSize = new System.Drawing.Size(573, 301);
+            this.Controls.Add(this.btregistradora);
+            this.Controls.Add(this.btcalc);
             this.Controls.Add(this.lbMensaje);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btBorrar);
@@ -155,6 +181,8 @@
         private System.Windows.Forms.Button btBorrar;
         private System.Windows.Forms.Button btSalir;
         private System.Windows.Forms.Label lbMensaje;
+        private System.Windows.Forms.Button btregistradora;
+        private System.Windows.Forms.Button btcalc;
     }
 }
 

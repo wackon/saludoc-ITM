@@ -61,7 +61,7 @@ namespace Saludo
 
         private void btSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -77,6 +77,18 @@ namespace Saludo
         private void label2_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btcalc_Click(object sender, EventArgs e)
+        {
+            Calculadora objCal = new Calculadora();
+            objCal.Show();
+        }
+
+        private void btregistradora_Click(object sender, EventArgs e)
+        {
+            Registradora objReg = new Registradora();
+            objReg.Show();
         }
     }
 }

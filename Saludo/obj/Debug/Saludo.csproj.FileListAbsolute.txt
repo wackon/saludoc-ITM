@@ -23,3 +23,4 @@ C:\Users\wackon\Desktop\C#\Proyectos\Saludo\Saludo\obj\Debug\Saludo.Registradora
 C:\Users\wackon\Desktop\C#\Proyectos\Saludo\Saludo\bin\Debug\nqo\Saludo.resources.dll
 C:\Users\wackon\Desktop\C#\Proyectos\Saludo\Saludo\obj\Debug\Saludo.Registradora.nqo.resources
 C:\Users\wackon\Desktop\C#\Proyectos\Saludo\Saludo\obj\Debug\nqo\Saludo.resources.dll
+C:\Users\wackon\Desktop\C#\Proyectos\Saludo\Saludo\obj\Debug\Saludo.Ppal.resources
