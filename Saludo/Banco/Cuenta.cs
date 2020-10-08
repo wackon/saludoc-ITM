@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BancoPOOConsola
+namespace Saludo
 {
-    public abstract class Saludo
+    public abstract class Cuenta
     {
         //Propiedades o Variable miembro
         private string nombre;
