@@ -74,6 +74,12 @@
     <Compile Include="Registradora.Designer.cs">
       <DependentUpon>Registradora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Retiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retiro.Designer.cs">
+      <DependentUpon>Retiro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registradora.resx">
       <DependentUpon>Registradora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retiro.resx">
+      <DependentUpon>Retiro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ventana.resx">
       <DependentUpon>Ventana.cs</DependentUpon>

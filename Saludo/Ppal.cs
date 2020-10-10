@@ -16,7 +16,7 @@ namespace Saludo
 
         
     {
-        static Banco objBanco;
+        public static Banco objBanco;
 
 
         public Ppal()
@@ -104,6 +104,31 @@ namespace Saludo
         }
 
         private void consultaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Consulta objCon = new Consulta();
+            objCon.MdiParent = this;
+            objCon.Show();
+
+        }
+
+        private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void retiroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Retiro objRet = new Retiro();
+            objRet.MdiParent = this;
+            objRet.Show();
+        }
+
+        private void nombreToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
